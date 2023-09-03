@@ -3,7 +3,7 @@ class MV_Screen {
     private $vidScr;
 
     public function __construct() {
-        $this->vidScr = "video/saigon.mp4";
+        $this->vidScr = "Video/saigon.mp4";
     }
 
     public function Display_ScreenV() {
