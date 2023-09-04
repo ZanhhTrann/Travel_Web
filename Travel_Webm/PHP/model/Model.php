@@ -1,12 +1,12 @@
 <?php
-class MV_Screen {
+class Model{
     private $vidScr;
 
     public function __construct() {
-        $this->vidScr = "Video/saigon.mp4";
     }
 
     public function Display_ScreenV() {
+        $this->vidScr = "Video/saigon.mp4";
         echo "<video src='$this->vidScr' autoplay muted loop></video>";
     }
 }
