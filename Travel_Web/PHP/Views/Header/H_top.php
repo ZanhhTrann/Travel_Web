@@ -1,6 +1,4 @@
 <?php 
-require "PHP/model/String/Header/hcontent.php";
-$top = $htop;
 $leng = count($top);
 echo '<div class="header-top">
     <i class="fas fa-bars"></i>

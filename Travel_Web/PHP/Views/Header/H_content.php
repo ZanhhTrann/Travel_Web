@@ -1,6 +1,4 @@
 <?php
-require "PHP/model/String/Header/hcontent.php";
-$cont = $content;
 echo '<div class="header-content">
         <h1>' . $cont[0] . '</h1>
         <p>' . $cont[1] . '</p>
